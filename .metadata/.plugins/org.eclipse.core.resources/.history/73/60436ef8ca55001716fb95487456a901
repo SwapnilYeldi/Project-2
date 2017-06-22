@@ -1,0 +1,14 @@
+package com.niit.controller;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class UserController {
+	@RequestMapping(value="/registration",method=RequestMethod.POST)
+	public ResponseEntity<Void> registration(@RequestBody Users users){
+		user.setEnabled(true);
+		userDao.registration(user);
+		return new ResponseEntity<Void>(HttpStatus.CREATED);
+	}
+
+}
