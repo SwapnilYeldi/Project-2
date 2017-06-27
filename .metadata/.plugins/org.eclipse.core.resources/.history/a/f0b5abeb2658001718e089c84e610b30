@@ -1,0 +1,11 @@
+<div>
+{{message}}
+
+<form>
+Enter Username <input type="text" ng-model="user.username"><br>
+Enter Password <input type="password" ng-model="user.password"><br>
+<input type="submit">
+
+
+</form>
+</div>

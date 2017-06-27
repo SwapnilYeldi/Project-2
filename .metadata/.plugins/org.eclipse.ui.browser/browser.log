@@ -1,0 +1,43 @@
+
+Jun 23, 2017 19:33:40.80 NEW SESSION
+Jun 23, 2017 19:33:40.80 [GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+Jun 23, 2017 19:33:42.11 [GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+
+Jun 26, 2017 20:11:32.73 NEW SESSION
+Jun 26, 2017 20:11:32.73 [GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+Jun 26, 2017 20:11:33.90 [GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+Jun 26, 2017 20:16:06.21 1498488366213	addons.update-checker	WARN	Update manifest for firefox@getpocket.com did not contain an updates property
+Jun 26, 2017 20:16:06.25 1498488366252	addons.update-checker	WARN	Update manifest for webcompat@mozilla.org did not contain an updates property
+Jun 26, 2017 20:16:06.33 1498488366331	addons.update-checker	WARN	Update manifest for aushelper@mozilla.org did not contain an updates property
+Jun 26, 2017 20:16:06.38 1498488366381	addons.update-checker	WARN	Update manifest for e10srollout@mozilla.org did not contain an updates property
+Jun 26, 2017 20:16:06.52 1498488366528	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+Jun 26, 2017 20:16:06.60 1498488366605	addons.update-checker	WARN	Update manifest for followonsearch@mozilla.com did not contain an updates property
+Jun 26, 2017 20:18:03.36 *************************
+Jun 26, 2017 20:18:03.36 A coding exception was thrown and uncaught in a Task.
+Jun 26, 2017 20:18:03.36 
+Jun 26, 2017 20:18:03.36 Full message: TypeError: NetworkError when attempting to fetch resource.
+Jun 26, 2017 20:18:03.36 Full stack: loadFile@resource://gre/modules/services-common/blocklist-clients.js:119:30
+Jun 26, 2017 20:18:03.36 TaskImpl_run@resource://gre/modules/Task.jsm:319:42
+Jun 26, 2017 20:18:03.36 TaskImpl@resource://gre/modules/Task.jsm:277:3
+Jun 26, 2017 20:18:03.36 asyncFunction@resource://gre/modules/Task.jsm:252:14
+Jun 26, 2017 20:18:03.36 Task_spawn@resource://gre/modules/Task.jsm:166:12
+Jun 26, 2017 20:18:03.36 loadDumpFile@resource://gre/modules/services-common/blocklist-clients.js:118:12
+Jun 26, 2017 20:18:03.36 syncCollection@resource://gre/modules/services-common/blocklist-clients.js:212:39
+Jun 26, 2017 20:18:03.36 TaskImpl_run@resource://gre/modules/Task.jsm:319:42
+Jun 26, 2017 20:18:03.37 
+Jun 26, 2017 20:18:03.37 *************************
+Jun 26, 2017 20:18:05.27 1498488485276	addons.xpi	WARN	Add-on web2pdfextension@web2pdf.adobedotcom is not correctly signed.
+Jun 26, 2017 20:20:02.92 1498488602929	addons.xpi	WARN	Add-on web2pdfextension@web2pdf.adobedotcom is not correctly signed.
+
+Jun 26, 2017 23:35:43.05 NEW SESSION
+Jun 26, 2017 23:35:43.05 [GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+Jun 26, 2017 23:35:44.42 [GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+Jun 27, 2017 24:57:47.86 [GPU 2592] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jun 27, 2017 24:57:47.86 [GPU 2592] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jun 27, 2017 24:57:48.54 
+Jun 27, 2017 24:57:48.54 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Jun 27, 2017 24:57:48.54 
+
+Jun 27, 2017 13:53:40.02 NEW SESSION
+Jun 27, 2017 13:53:40.02 [GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+Jun 27, 2017 13:53:41.30 [GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
