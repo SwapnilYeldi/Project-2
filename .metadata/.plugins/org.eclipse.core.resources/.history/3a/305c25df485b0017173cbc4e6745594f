@@ -1,0 +1,21 @@
+package com.niit.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.niit.dao.JobDao;
+
+@RestController
+public class JobController {
+	@Autowired
+	private JobDao jobDao;
+	public ResponseEntity<?> saveJob(@RequestBody Job job,HttpSession session){
+		try{
+			jobDao.saveJob(job);
+			return new ResponseEntity<Void> (HttpStatus.OK);
+		}
+	}
+	
+
+}

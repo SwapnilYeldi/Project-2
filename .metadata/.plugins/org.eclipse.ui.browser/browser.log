@@ -41,3 +41,29 @@ Jun 27, 2017 24:57:48.54
 Jun 27, 2017 13:53:40.02 NEW SESSION
 Jun 27, 2017 13:53:40.02 [GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
 Jun 27, 2017 13:53:41.30 [GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+
+Jun 27, 2017 19:43:20.87 NEW SESSION
+Jun 27, 2017 19:43:20.87 [GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+Jun 27, 2017 19:43:22.24 [GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+Jun 27, 2017 20:16:23.91 1498574783914	addons.update-checker	WARN	Update manifest for e10srollout@mozilla.org did not contain an updates property
+Jun 27, 2017 20:16:23.93 1498574783932	addons.update-checker	WARN	Update manifest for webcompat@mozilla.org did not contain an updates property
+Jun 27, 2017 20:16:23.94 1498574783949	addons.update-checker	WARN	Update manifest for aushelper@mozilla.org did not contain an updates property
+Jun 27, 2017 20:16:24.23 1498574784232	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+Jun 27, 2017 20:16:24.25 1498574784253	addons.update-checker	WARN	Update manifest for followonsearch@mozilla.com did not contain an updates property
+Jun 27, 2017 20:16:24.76 1498574784759	addons.update-checker	WARN	Update manifest for firefox@getpocket.com did not contain an updates property
+Jun 27, 2017 20:18:03.64 *************************
+Jun 27, 2017 20:18:03.64 A coding exception was thrown and uncaught in a Task.
+Jun 27, 2017 20:18:03.64 
+Jun 27, 2017 20:18:03.64 Full message: TypeError: NetworkError when attempting to fetch resource.
+Jun 27, 2017 20:18:03.64 Full stack: loadFile@resource://gre/modules/services-common/blocklist-clients.js:119:30
+Jun 27, 2017 20:18:03.64 TaskImpl_run@resource://gre/modules/Task.jsm:319:42
+Jun 27, 2017 20:18:03.64 TaskImpl@resource://gre/modules/Task.jsm:277:3
+Jun 27, 2017 20:18:03.64 asyncFunction@resource://gre/modules/Task.jsm:252:14
+Jun 27, 2017 20:18:03.64 Task_spawn@resource://gre/modules/Task.jsm:166:12
+Jun 27, 2017 20:18:03.64 loadDumpFile@resource://gre/modules/services-common/blocklist-clients.js:118:12
+Jun 27, 2017 20:18:03.64 syncCollection@resource://gre/modules/services-common/blocklist-clients.js:212:39
+Jun 27, 2017 20:18:03.64 TaskImpl_run@resource://gre/modules/Task.jsm:319:42
+Jun 27, 2017 20:18:03.64 
+Jun 27, 2017 20:18:03.64 *************************
+Jun 27, 2017 20:18:05.17 1498574885181	addons.xpi	WARN	Add-on web2pdfextension@web2pdf.adobedotcom is not correctly signed.
+Jun 27, 2017 20:20:03.11 1498575003117	addons.xpi	WARN	Add-on web2pdfextension@web2pdf.adobedotcom is not correctly signed.

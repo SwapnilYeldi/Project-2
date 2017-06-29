@@ -1,6 +1,0 @@
-package com.niit.dao;
-
-public interface UsersDao {
-	void registration(Users users);
-
-}

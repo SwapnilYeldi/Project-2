@@ -1,0 +1,8 @@
+package com.niit.dao;
+
+public interface JobDao {
+	void saveJob(Job job);
+	List<job> getAllJobs();
+	
+
+}
