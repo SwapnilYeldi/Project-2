@@ -2,29 +2,51 @@
  * angular js module
  */
 
-var app = angular.module("myApp", [ 'ngRoute', 'ngCookies' ])
+var app = angular.module("myApp",['ngRoute','ngCookies'])
 app.config(function($routeProvider) {
-	$routeProvider.when('/registration', {
+	console.log('entering config function')
+	$routeProvider
+	.when('/registration', {
 		templateUrl : 'views/registrationform.html',
 		controller : 'UserController'
 	})
 
 	.when('/login', {
-		templateUrl : 'views/login.html',
-		controller : 'UserController'
-	}).otherwise({
+		templateUrl :'views/login.html',
+		controller :'UserController'
+	})
+	
+	.when('/savejob',{
+		templateUrl : 'views/jobform.html',
+		controller : 'JobController'
+
+	})
+	
+	.when('/getalljobs',{
+		templateUrl : 'views/jobtitles.html',
+		controller : 'JobController'
+
+	})
+	
+	.when('/saveblogpost',{
+		templateUrl : 'views/blogpostform.html',
+		controller : 'BlogPostController'
+
+	})
+	
+	.otherwise({
 		templateUrl : 'views/home.html'
 	})
 })
 
-app.run(function($rootScope, $location, UserService, $cookieStore) {
+app.run(function($rootScope,$location,UserService,$cookieStore) {
 
-	if ($rootScope.currentUser == undefined)
-		$rootScope.currentUser = $cookieStore.get("currentUser")
+	if ($rootScope.currentUser==undefined)
+		$rootScope.currentUser=$cookieStore.get("currentUser")
 
-	$rootScope.logout = function() {
+	$rootScope.logout=function() {
 		UserService.logout().then(function(response) {
-			$rootScope.message = "loggedout successfully...."
+			$rootScope.message="loggedout successfully...."
 			delete $rootScope.currentUser;
 			$cookieStore.remove("currentUser")
 			$location.path('/login')
@@ -32,7 +54,7 @@ app.run(function($rootScope, $location, UserService, $cookieStore) {
 		}, function(response) {
 
 			console.log(response.status)
-			$rootScope.message = response.data.message
+			$rootScope.message=response.data.message
 			$location.path('/login')
 		})
 

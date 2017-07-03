@@ -1,0 +1,15 @@
+<div>
+<table>
+<thead>
+<tr>
+<th>Job Title</th><th>Posted On</th>
+</tr>
+</thead>
+<tr ng-repeat="job in jobs">
+<td>{{job.jobTitle}} &nbsp; {{job.postedOn}} </td>
+
+</tr>>
+
+</table>
+
+</div>

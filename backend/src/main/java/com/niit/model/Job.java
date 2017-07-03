@@ -1,3 +1,4 @@
+
 package com.niit.model;
 
 import java.util.Date;
@@ -21,11 +22,11 @@ public class Job {
 	private String jobDescription;
 	private String yrsOfExp;
 	@NotEmpty
-	private String skillRequired;
+	private String skillsRequired;
 	private String salary;
-	private Date postedon;
+	private Date postedOn;
 	private String location;
-	private String companyname;
+	private String companyName;
 	public int getId() {
 		return id;
 	}
@@ -50,11 +51,12 @@ public class Job {
 	public void setYrsOfExp(String yrsOfExp) {
 		this.yrsOfExp = yrsOfExp;
 	}
-	public String getSkillRequired() {
-		return skillRequired;
+	
+	public String getSkillsRequired() {
+		return skillsRequired;
 	}
-	public void setSkillRequired(String skillRequired) {
-		this.skillRequired = skillRequired;
+	public void setSkillsRequired(String skillsRequired) {
+		this.skillsRequired = skillsRequired;
 	}
 	public String getSalary() {
 		return salary;
@@ -62,11 +64,12 @@ public class Job {
 	public void setSalary(String salary) {
 		this.salary = salary;
 	}
-	public Date getPostedon() {
-		return postedon;
+	
+	public Date getPostedOn() {
+		return postedOn;
 	}
-	public void setPostedon(Date postedon) {
-		this.postedon = postedon;
+	public void setPostedOn(Date postedOn) {
+		this.postedOn = postedOn;
 	}
 	public String getLocation() {
 		return location;
@@ -74,12 +77,13 @@ public class Job {
 	public void setLocation(String location) {
 		this.location = location;
 	}
-	public String getCompanyname() {
-		return companyname;
+	public String getCompanyName() {
+		return companyName;
 	}
-	public void setCompanyname(String companyname) {
-		this.companyname = companyname;
+	public void setCompanyName(String companyName) {
+		this.companyName = companyName;
 	}
+	
 	
 	
 

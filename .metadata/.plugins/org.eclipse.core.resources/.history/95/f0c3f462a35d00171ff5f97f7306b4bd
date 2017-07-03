@@ -1,0 +1,12 @@
+<div>
+<table>
+<thead>
+<tr>
+<ul ng-repeat="job in jobs">
+<li>{{job.jobTitle}} &nbsp; {{job.postedOn}} </li>
+
+</ul>
+
+</table>
+
+</div>

@@ -1,0 +1,17 @@
+/**
+ * Blogcontroller
+ */
+
+app.controller('BlogPostController',function($scope,BlogService,$location){
+	$scope.saveBlogPost=function(){
+		BlogService.saveBlog($scope.blogPost).then(function(response){
+			$scope.success="Blog post inserted successfully and waiting for approval"
+				$location.path('/getallblogs')
+		},function(response){
+			if(response.status==401){
+				$scope.message=response.data.message
+				$location.path('/login')
+			}
+		})
+	}
+})

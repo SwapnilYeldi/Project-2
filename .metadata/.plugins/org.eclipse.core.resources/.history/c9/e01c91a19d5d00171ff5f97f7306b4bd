@@ -1,0 +1,18 @@
+/**
+ * job controller
+ */
+
+app.controller('JobController',function($scope,$location,JobService){
+	$scope.saveJob=function(){
+		JobService.saveJob($scope.job).then(function(response){
+			$location.path('/getalljobs')
+			
+		},function(response){
+			$scope.message=response.data.message
+			if(response.status==401)
+				$location.path('/login')
+			$location.path('/savejob')
+		})
+	}
+	
+})

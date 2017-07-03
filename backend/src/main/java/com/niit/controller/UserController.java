@@ -62,7 +62,6 @@ public class UserController {
 	
 	@RequestMapping(value="/logout", method=RequestMethod.GET)
 	public ResponseEntity<?> logout(HttpSession session){
-		
 		Users users=(Users)session.getAttribute("user");
 		//System.out.println("Is session new for" +users.getUsername() +session.isNew());
 		if(users==null){
