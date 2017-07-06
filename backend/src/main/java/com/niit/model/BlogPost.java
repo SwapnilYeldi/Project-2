@@ -19,7 +19,7 @@ public class BlogPost {
 	private String description;
 	@ManyToOne
 	@JoinColumn(name="username")
-	private Users createBy;
+	private Users createdBy;
 	private Date postedOn;
 	private boolean approved;
 	public int getId() {
@@ -40,11 +40,12 @@ public class BlogPost {
 	public void setDescription(String description) {
 		this.description = description;
 	}
-	public Users getCreateBy() {
-		return createBy;
+	
+	public Users getCreatedBy() {
+		return createdBy;
 	}
-	public void setCreateBy(Users createBy) {
-		this.createBy = createBy;
+	public void setCreatedBy(Users createdBy) {
+		this.createdBy = createdBy;
 	}
 	public Date getPostedOn() {
 		return postedOn;

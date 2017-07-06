@@ -1,0 +1,9 @@
+package com.niit.model;
+
+public class BlogComment {
+	private int id;
+	private Users commentedBy;
+	private Date commentedOn;
+	
+
+}

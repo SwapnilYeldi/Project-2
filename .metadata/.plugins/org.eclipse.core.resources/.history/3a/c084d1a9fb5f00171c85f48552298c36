@@ -1,0 +1,12 @@
+<div class="table-responsive" ng-show="currentUser.role=='Admin'">
+List of Blog Posts Waiting for approval
+<table class="table">
+<tr><th>Recent Posts</th></tr>
+</table>
+
+
+
+
+
+
+</div>

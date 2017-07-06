@@ -1,0 +1,21 @@
+/**
+ *blogpostservice
+ */
+
+app.factory('BlogPostService',function($http){
+	var blogPostService={}
+	
+	blogPostService.saveBlog=function(blogPost){
+		return $http.post("http://localhost:8090/backend/saveblogpost",blogPost)
+	}
+	
+	blogPostService.blogsApproved=function(){
+		return $http.get("http://localhost:8090/backend/listofblogs"+1)
+	}
+	
+	blogPostService.blogsWaitingForApproval=function(){
+		return $http.get("http://localhost:8090/backend/listofblogs"+1)
+	}
+	
+	return blogPostService;
+})
