@@ -1,0 +1,10 @@
+<table>
+<thead>
+<tr>
+<th>Firstname</th><th>Lastname</th><th>Online</th><th>Friend Request</th>
+</tr>
+</thead>
+<tr ng-repeat="user in suggestedUsers">
+<td>{{user.firstname}}</td><td>{{user.lastname}}</td><td>{{user.online}}</td>
+
+</table>

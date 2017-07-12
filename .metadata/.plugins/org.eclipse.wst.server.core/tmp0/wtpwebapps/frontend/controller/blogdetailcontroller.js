@@ -8,7 +8,7 @@
 
 app.controller('BlogDetailController',function($scope,$location,BlogPostService,$routeParams){
 	var id=$routeParams.id
-	
+	$scope.showComments=false
 	$scope.blogPost=BlogPostService.getBlogPost(id).then(function(response){
 		$scope.blogPost=response.data;
 	},function(response){
@@ -34,5 +34,15 @@ app.controller('BlogDetailController',function($scope,$location,BlogPostService,
 			console.log(response.status);
 		})
 		
+	}
+	
+	$scope.getBlogComments=function(blogId){
+		$scope.showComments=true;
+		BlogPostService.getBlogComments(blogId).then(function(response){
+			$scope.blogComments=response.data;
+			console.log(response.status);
+		},function(response){
+			console.log(response.status)
+		})
 	}
 })

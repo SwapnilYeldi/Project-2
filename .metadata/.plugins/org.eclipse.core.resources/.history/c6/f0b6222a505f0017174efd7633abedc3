@@ -1,5 +1,0 @@
-package com.niit.dao;
-
-public class BlogPostDaoImpl implements BlogPost{
-
-}

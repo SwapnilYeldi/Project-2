@@ -28,5 +28,9 @@ app.factory('BlogPostService',function($http){
 	blogPostService.addComment=function(blogComment){
 		return $http.post("http://localhost:8090/backend/addblogcomment",blogComment)
 	}
+	
+	blogPostService.getBlogComments=function(blogId){
+		return $http.get("http://localhost:8090/backend/getblogcomments/"+blogId)
+	}
 	return blogPostService;
 })

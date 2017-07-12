@@ -1,0 +1,21 @@
+package com.niit.dao;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+import com.niit.model.Users;
+
+@Repository
+public class FriendDaoImpl implements FriendDao{
+	@Autowired
+	private SessionFactory sessionFactory;
+	
+	public List<Users> listOfSuggestedUsers(String username) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+
+}

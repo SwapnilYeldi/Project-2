@@ -16,6 +16,8 @@ public interface BlogPostDao {
 
 	void addComment(BlogComment blogComment);
 
+	List<BlogComment> getBlogComments(int blogId);
+
 	
 
 }

@@ -1,0 +1,8 @@
+package com.niit.dao;
+
+import java.util.List;
+
+public interface FriendDao {
+	List<Users> listOfSuggestedUsers(String username);
+
+}
