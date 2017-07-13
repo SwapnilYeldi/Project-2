@@ -64,6 +64,12 @@ app.config(function($routeProvider) {
 
 	})
 	
+	.when('/listoffriends',{
+		templateUrl : 'views/listoffriends.html',
+		controller : 'FriendController'
+
+	})
+	
 	.otherwise({
 		templateUrl : 'views/home.html'
 	})

@@ -19,6 +19,14 @@ app.controller('FriendController',function($scope,$location,FriendService){
 		})
 	}
 	
+	function listOfFriends(){
+		$scope.friendsList=FriendService.listOfFriends().then(function(response){
+			$scope.friendsList=response.data;
+		},function(response){
+			console.log(response.status);
+		})
+	}
+	
 	$scope.friendrequest=function(toUsername){
 	FriendService.sendFriendRequest(toUsername).then(function(response){
 		alert("Friendrequest has been sent successfully")
@@ -39,6 +47,7 @@ app.controller('FriendController',function($scope,$location,FriendService){
 		})
 	}
 	
+	listOfFriends();
 	pendingRequests();
 	listOfSuggestedUsers();
 	
