@@ -18,6 +18,14 @@ app.factory('UserService',function($http){
 		return $http.get("http://localhost:8090/backend/logout")
 	}
 	
+	userService.getUserByUsername=function(){
+		return $http.get("http://localhost:8090/backend/getuserdetails")
+	}
+	
+	userService.updateUserProfile=function(user){
+		return $http.put("http://localhost:8090/backend/updateprofile",user)
+	}
+	
 	
 	
 	return userService;

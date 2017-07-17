@@ -70,6 +70,18 @@ app.config(function($routeProvider) {
 
 	})
 	
+	.when('/profilepic',{
+		templateUrl : 'views/profilepicture.html',
+		
+
+	})
+	
+	.when('/edituserprofile',{
+		templateUrl : 'views/updateprofile.html',
+		controller : 'UserController'
+
+	})
+	
 	.otherwise({
 		templateUrl : 'views/home.html'
 	})

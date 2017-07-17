@@ -52,6 +52,7 @@ public class UserController {
 		}
 		else{
 			
+			
 			validUser.setOnline(true);
 			validUser=usersDao.updateUser(validUser);
 			session.setAttribute("user",validUser);
@@ -69,10 +70,38 @@ public class UserController {
 			return new ResponseEntity<Error>(error,HttpStatus.UNAUTHORIZED);
 			
 		}
+		//System.out.println("Is Session New For"+users.getUsername());
+		users=usersDao.getUserByUsername(users.getUsername());
 		users.setOnline(false);
 		usersDao.updateUser(users);
 		session.removeAttribute("user");
 		session.invalidate();
+		return new ResponseEntity<Void>(HttpStatus.OK);
+	}
+	
+	@RequestMapping(value="/getuserdetails",method=RequestMethod.GET)
+	public ResponseEntity<?> getUserDetails(HttpSession session){
+		Users users=(Users)session.getAttribute("user");
+		//System.out.println("Is session new for" +users.getUsername() +session.isNew());
+		if(users==null){
+			Error error=new Error(4,"Unauthorized user");
+			return new ResponseEntity<Error>(error,HttpStatus.UNAUTHORIZED);
+			
+		}
+		users=usersDao.getUserByUsername(users.getUsername());
+		return new ResponseEntity<Users>(users,HttpStatus.OK);
+	}
+	
+	@RequestMapping(value="/updateprofile",method=RequestMethod.PUT)
+	public ResponseEntity<?> updateUserProfile(@RequestBody Users user,HttpSession session){
+		Users users=(Users)session.getAttribute("user");
+		//System.out.println("Is session new for" +users.getUsername() +session.isNew());
+		if(users==null){
+			Error error=new Error(4,"Unauthorized user");
+			return new ResponseEntity<Error>(error,HttpStatus.UNAUTHORIZED);
+			
+		}
+		usersDao.updateUser(user);
 		return new ResponseEntity<Void>(HttpStatus.OK);
 	}
 
