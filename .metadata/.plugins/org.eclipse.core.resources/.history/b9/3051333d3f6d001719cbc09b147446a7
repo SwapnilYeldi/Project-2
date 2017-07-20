@@ -1,0 +1,111 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="css/backgroung.css" media="all" rel="stylesheet" type="text/css"/>
+<title>Insert title here</title>
+
+</head>
+<style>
+ input[type=text], input[type=password] {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    
+    }
+    
+.cancelbtn {
+color: white;
+    padding: 15px 50px;
+    margin: 30px 0;
+    border: none;
+    cursor: pointer;
+   background-color: #f44336;
+    width:20%;
+     
+} 
+div.gallery img {
+    width: 70%;
+    height: 400px;
+  
+}
+.signupbtn {
+color: white;
+    padding: 15px 50px;
+    margin: 30px 0;
+    border: none;
+    cursor: pointer;
+background-color: #4CAF50;
+    float: center;
+    width: 20%;
+}
+
+body{
+	background-image: url('images/login.jpg');
+
+}
+</style>
+
+<body >
+
+<form> <!-- action="perform_login" method="post"> -->
+
+<div class="row">
+<div class="col-md-6">
+<div class="gallery">
+  <img src="images\Lock.png">
+</div>
+</div>
+<div class="col-md-6">
+<div class="container">
+           
+  <br><br>
+				<label for="name">Username</label><br>
+				<input type="text" ng-model="user.username"  placeholder="Enter username here">&nbsp;&nbsp;&nbsp;
+			<br>
+				<label for="password">Password</label><br>
+				<input type="password" ng-model="user.password"  placeholder="Enter password here"><br>
+				
+				
+			
+				<input type="submit" class="signupbtn"  value="login" ng-click="login()">
+				<input type="button" class="cancelbtn" value="Cancel">&nbsp;&nbsp;&nbsp;
+				<h4><b><u><a href="#/registration">New user? Sign up</a></u></b></h4>
+				<!-- <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}" /><br>
+				<h4><b><u><a href="#/registration">New user? Sign up</a></u></b></h4>
+				<h6><a href="forgotpass">forgot password?</a></h6> -->
+	
+		</div>
+		</div>
+		</div>
+
+
+	</form>
+</body>
+</html>
+
+
+
+
+<!-- <div>
+{{message}}
+{{error.message}}
+
+<form class="form-horizontal" style="align: center;">
+
+<div  class="form-group">
+<label class="control-label col-sm-2">
+Enter Username: </label>
+ <div class="col-sm-2">
+<input type="text" class="form-control" ng-model="user.username"  placeholder="Enter username here"></div><br><br>
+Enter Password <input type="password" ng-model="user.password"  placeholder="Enter password here"><br><br>
+<input type="submit" value="login" ng-click="login()">
+
+</div>
+
+</form>
+</div> -->

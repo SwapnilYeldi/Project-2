@@ -1,9 +1,0 @@
-List of Friends
-<table>
-<tr ng-repeat="f in friendsList">
-<td>{{f.fromId}}</td>
-<td>{{f.toId}}</td>
-
-<td></td>
-</tr>
-</table>

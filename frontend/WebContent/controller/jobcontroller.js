@@ -8,7 +8,7 @@ app.controller('JobController',function($scope,$location,JobService){
 	
 	
 	function getAllJobs(){
-		$scope.jobs=JobService.getAllJobs().then(function(response){
+		JobService.getAllJobs().then(function(response){
 			$scope.jobs=response.data
 		},function(response){
 			$scope.message=response.data.message

@@ -1,8 +1,10 @@
+Search <input ng-model="blogTitle">
 <div class="table-responsive" ng-show="currentUser.role=='Admin'">
+
 List of Blog Posts Waiting for approval
 <table class="table">
 <tr><th>Recent Posts</th></tr>
-<tr ng-repeat="blogPost in blogsWaitingForApproval | orderBy:'time':true">
+<tr ng-repeat="blogPost in blogsWaitingForApproval | orderBy:'time':true | filter:blogTitle">
 
 <td><a href="#getBlogForApproval/{{blogPost.id}}">{{blogPost.title}}</a></td>
 <td>Created By: {{blogPost.createdBy.username}}</td>
@@ -16,7 +18,7 @@ List of Blog Posts Waiting for approval
 List of Blog Posts 
 <table class="table">
 <tr><th>Recent Posts</th></tr>
-<tr ng-repeat="blogPost in blogsApproved | orderBy:'time':true">
+<tr ng-repeat="blogPost in blogsApproved | orderBy:'time':true | filter:blogTitle">
 
 <td><a href="#getBlogDetail/{{blogPost.id}}">{{blogPost.title}}</a></td>
 <td>Created By: {{blogPost.createdBy.username}}</td>

@@ -1,0 +1,14 @@
+<div>
+{{message}}
+{{error.message}}
+
+<form class="form-horizontal">
+<div  style="text-align: center;" class="form-group">
+<label class="control-label col-sm-2" for="email">
+Enter Username: </label><input type="text" class="form-control" ng-model="user.username"  placeholder="Enter username here"><br><br>
+Enter Password <input type="password" ng-model="user.password"  placeholder="Enter password here"><br><br>
+<input type="submit" value="login" ng-click="login()">
+
+</div>
+</form>
+</div>

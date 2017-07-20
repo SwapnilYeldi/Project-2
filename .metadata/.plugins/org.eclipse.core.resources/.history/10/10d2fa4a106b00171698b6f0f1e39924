@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Register</title>
+
+<style>
+input[type=text], input[type=password] {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.cancelbtn {
+color: white;
+    padding: 15px 40px;
+    margin: 30px 0;
+    border: none;
+    cursor: pointer;
+   background-color: #f44336;
+    width:40%;
+} 
+.signupbtn {
+color: white;
+    padding: 15px 40px;
+    margin: 30px 0;
+    border: none;
+    cursor: pointer;
+background-color: #4CAF50;
+    float: center;
+    width: 40%;
+}
+</style>
+
+</head>
+
+<body background ="resources\image\login.jpg">
+
+
+
+ <form> <!-- action="user" method="POST" onsubmit="return checkPass()"> -->
+<font color="MIDNIGHTBLUE">
+<div class="container">
+<p align="right">
+<label><font color="red"> *All fields are Necessary*</font></label><br></p>
+<label><b><font face="Garamond">First Name</b></font></label><br>
+<input type="text" ng-model="job.jobTitle"><br>
+<label><font face="Garamond"><b>Last Name</b></font></label><br>
+<textarea ng-model="job.jobDescription"></textarea><br>
+<!-- <label><font face="Garamond"><b>User Name-*Generate new user name</b></font></label><br>
+<input type="text" name="uname"  required><br> -->
+
+<label><font face="Garamond"><b>Email Id</b></font></label><br>
+<input type="text" ng-model="job.yrsOfExp"><br>
+
+<label><font face="Garamond"><b>Username</b></font></label><br>
+<input type="text" ng-model="user.username"><br>
+<label><font face="Garamond"><b> Password</b></font></label><br>
+<input type="password" ng-model="user.password"><br>
+
+<!-- <label><font face="Garamond"><b>Confirm password</b></font></label><br>
+<input type="password" id="cpass" name="confirmpass"  required><br> -->
+
+<label><font face="Garamond"><b>Role</b></font></label><br>
+<input type="radio" ng-model="user.role" value="Student">Student
+<input type="radio" ng-model="user.role" value="Alumini">Alumini
+<input type="radio" ng-model="user.role" value="Employee">Employee<br>
+
+
+
+
+</div>
+<center>
+<!-- <h4><input type="checkbox" checked="checked">I Agree<a href="#"><u>Terms and Privacy.</u></a></h3> -->
+<input type="button" class="cancelbtn" value="Cancel">&nbsp;&nbsp;&nbsp;
+<input type="submit" class="signupbtn"  ng-click="register()"><center>
+
+	</font>	
+</form>
+
+   
+    
+</body>
+
+</html>
+
+
+
+
+<!-- <form>
+<span class="">{{message}}</span>
+Enter Job Title<input type="text" ng-model="job.jobTitle"><br>
+Enter Job Description<textarea ng-model="job.jobDescription"></textarea><br>
+Enter years of Experience<input type="text" ng-model="job.yrsOfExp"><br>
+Enter Salary<input type="text" ng-model="job.salary"><br>
+Enter Skill Required<input type="text" ng-model="job.skillsRequired"><br>
+Enter location<input type="text" ng-model="job.location"><br>
+Enter Company Name<input type="text" ng-model="job.companyName"><br>
+
+<input type="submit" value="saveJob" ng-click="saveJob()">
+
+</form> -->

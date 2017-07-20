@@ -872,3 +872,181 @@ Jul 17, 2017 15:32:23.89 NEW SESSION
 Jul 17, 2017 15:32:23.90 [GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
 Jul 17, 2017 15:32:26.04 [GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
 Jul 17, 2017 16:01:09.50 [GPU 2516] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+Jul 17, 2017 19:11:54.10 NEW SESSION
+Jul 17, 2017 19:11:54.10 [GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+Jul 17, 2017 19:11:55.19 [GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+
+Jul 17, 2017 21:42:27.78 NEW SESSION
+Jul 17, 2017 21:42:27.78 [GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+Jul 17, 2017 21:42:28.80 [GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+Jul 17, 2017 22:28:40.81 [GPU 2384] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 17, 2017 22:28:40.82 [GPU 2384] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 17, 2017 22:28:40.85 [Child 8296] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 17, 2017 22:28:41.85 
+Jul 17, 2017 22:28:41.85 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Jul 17, 2017 22:28:41.85 
+
+Jul 19, 2017 17:10:39.34 NEW SESSION
+Jul 19, 2017 17:10:39.34 [GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+Jul 19, 2017 17:10:40.53 [GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+Jul 19, 2017 17:13:33.16 [Child 11288] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 19, 2017 17:13:33.16 [Child 11288] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 19, 2017 17:13:33.56 
+Jul 19, 2017 17:13:33.57 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Jul 19, 2017 17:13:33.57 
+
+Jul 19, 2017 19:56:42.10 NEW SESSION
+Jul 19, 2017 19:56:42.10 [GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+Jul 19, 2017 19:56:44.23 [GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+
+Jul 19, 2017 20:00:49.17 NEW SESSION
+Jul 19, 2017 20:00:49.17 [GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+Jul 19, 2017 20:00:50.52 [GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+Jul 19, 2017 20:03:04.77 IPDL protocol error: Handler returned error code!
+Jul 19, 2017 20:03:04.77 
+Jul 19, 2017 20:03:04.77 ###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+Jul 19, 2017 20:03:04.77 
+Jul 19, 2017 20:03:07.79 [GPU 7348] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 19, 2017 20:03:08.48 IPDL protocol error: Handler returned error code!
+Jul 19, 2017 20:03:08.48 
+Jul 19, 2017 20:03:08.48 ###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+Jul 19, 2017 20:03:08.48 
+Jul 19, 2017 20:03:09.21 [GPU 7348] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 19, 2017 20:07:09.62 IPDL protocol error: Handler returned error code!
+Jul 19, 2017 20:07:09.62 
+Jul 19, 2017 20:07:09.63 ###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+Jul 19, 2017 20:07:09.63 
+Jul 19, 2017 20:07:11.20 [GPU 7348] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+Jul 19, 2017 20:10:38.30 NEW SESSION
+Jul 19, 2017 20:10:38.30 [GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+Jul 19, 2017 20:10:39.49 [GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+Jul 19, 2017 20:19:52.64 [GPU 2752] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 19, 2017 20:19:53.29 
+Jul 19, 2017 20:19:53.29 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Jul 19, 2017 20:19:53.29 
+Jul 19, 2017 20:20:08.85 [GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+Jul 19, 2017 20:20:09.94 [GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+Jul 19, 2017 20:22:32.67 [GPU 3580] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 19, 2017 20:22:34.78 
+Jul 19, 2017 20:22:34.78 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Jul 19, 2017 20:22:34.78 
+Jul 19, 2017 20:22:39.08 [GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+Jul 19, 2017 20:22:40.13 [GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+Jul 19, 2017 20:26:20.52 IPDL protocol error: Handler returned error code!
+Jul 19, 2017 20:26:20.52 
+Jul 19, 2017 20:26:20.52 ###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+Jul 19, 2017 20:26:20.52 
+Jul 19, 2017 20:26:50.82 [GPU 3328] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 19, 2017 20:26:50.82 [GPU 3328] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 19, 2017 20:27:09.03 [GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+Jul 19, 2017 20:27:10.28 [GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+Jul 19, 2017 20:56:28.85 [GPU 2152] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 19, 2017 20:56:28.86 [GPU 2152] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 19, 2017 20:56:28.88 [Child 1164] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 19, 2017 20:56:28.88 [Child 1164] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 19, 2017 20:56:31.84 [GPU 2152] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 19, 2017 20:56:32.81 
+Jul 19, 2017 20:56:32.81 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Jul 19, 2017 20:56:32.81 
+
+Jul 19, 2017 20:58:00.66 NEW SESSION
+Jul 19, 2017 20:58:00.66 [GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+Jul 19, 2017 20:58:02.02 [GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+Jul 19, 2017 21:00:55.53 IPDL protocol error: Handler returned error code!
+Jul 19, 2017 21:00:55.53 
+Jul 19, 2017 21:00:55.54 ###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+Jul 19, 2017 21:00:55.54 
+Jul 19, 2017 21:00:57.68 [GPU 7996] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 19, 2017 21:01:41.20 [GPU 7996] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 19, 2017 21:01:41.21 [GPU 7996] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 19, 2017 21:01:41.23 [Child 8176] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 19, 2017 21:01:41.23 [Child 8176] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+Jul 20, 2017 12:38:55.95 NEW SESSION
+Jul 20, 2017 12:38:55.95 [GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+Jul 20, 2017 12:38:57.27 [GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+Jul 20, 2017 12:46:17.99 1500534978006	addons.update-checker	WARN	Update manifest for e10srollout@mozilla.org did not contain an updates property
+Jul 20, 2017 12:46:18.07 1500534978072	addons.update-checker	WARN	Update manifest for webcompat@mozilla.org did not contain an updates property
+Jul 20, 2017 12:46:18.09 1500534978098	addons.update-checker	WARN	Update manifest for aushelper@mozilla.org did not contain an updates property
+Jul 20, 2017 12:46:18.10 1500534978117	addons.update-checker	WARN	Update manifest for firefox@getpocket.com did not contain an updates property
+Jul 20, 2017 12:46:18.22 1500534978233	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+Jul 20, 2017 12:46:18.27 1500534978279	addons.update-checker	WARN	Update manifest for followonsearch@mozilla.com did not contain an updates property
+Jul 20, 2017 12:48:16.53 1500535096544	addons.xpi	WARN	Add-on web2pdfextension@web2pdf.adobedotcom is not correctly signed.
+Jul 20, 2017 12:48:16.61 *************************
+Jul 20, 2017 12:48:16.61 A coding exception was thrown and uncaught in a Task.
+Jul 20, 2017 12:48:16.61 
+Jul 20, 2017 12:48:16.61 Full message: TypeError: NetworkError when attempting to fetch resource.
+Jul 20, 2017 12:48:16.61 Full stack: loadFile@resource://gre/modules/services-common/blocklist-clients.js:119:30
+Jul 20, 2017 12:48:16.61 TaskImpl_run@resource://gre/modules/Task.jsm:319:42
+Jul 20, 2017 12:48:16.61 TaskImpl@resource://gre/modules/Task.jsm:277:3
+Jul 20, 2017 12:48:16.61 asyncFunction@resource://gre/modules/Task.jsm:252:14
+Jul 20, 2017 12:48:16.61 Task_spawn@resource://gre/modules/Task.jsm:166:12
+Jul 20, 2017 12:48:16.61 loadDumpFile@resource://gre/modules/services-common/blocklist-clients.js:118:12
+Jul 20, 2017 12:48:16.61 syncCollection@resource://gre/modules/services-common/blocklist-clients.js:212:39
+Jul 20, 2017 12:48:16.61 TaskImpl_run@resource://gre/modules/Task.jsm:319:42
+Jul 20, 2017 12:48:16.61 
+Jul 20, 2017 12:48:16.61 *************************
+Jul 20, 2017 12:50:13.32 1500535213327	addons.xpi	WARN	Add-on web2pdfextension@web2pdf.adobedotcom is not correctly signed.
+Jul 20, 2017 13:01:04.78 [GPU 4508] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 20, 2017 13:01:04.79 [Child 10564] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 20, 2017 13:01:05.29 
+Jul 20, 2017 13:01:05.29 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Jul 20, 2017 13:01:05.29 
+Jul 20, 2017 13:01:48.14 [GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+Jul 20, 2017 13:01:49.28 [GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+Jul 20, 2017 13:02:21.84 
+Jul 20, 2017 13:02:21.84 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Jul 20, 2017 13:02:21.84 
+
+Jul 20, 2017 13:04:29.56 NEW SESSION
+Jul 20, 2017 13:04:29.56 [GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+Jul 20, 2017 13:04:31.21 [GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+Jul 20, 2017 13:16:00.12 [GPU 7172] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 20, 2017 13:16:00.14 [Child 7192] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 20, 2017 13:16:00.76 
+Jul 20, 2017 13:16:00.76 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Jul 20, 2017 13:16:00.76 
+
+Jul 20, 2017 14:39:26.88 NEW SESSION
+Jul 20, 2017 14:39:26.88 [GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+Jul 20, 2017 14:39:27.99 [GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+Jul 20, 2017 14:43:28.79 [GPU 10080] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 20, 2017 14:43:28.79 [GPU 10080] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 20, 2017 14:43:28.82 [Child 6744] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 20, 2017 14:43:28.82 [Child 6744] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+Jul 20, 2017 14:44:35.57 NEW SESSION
+Jul 20, 2017 14:44:35.57 [GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+Jul 20, 2017 14:44:36.91 [GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+
+Jul 20, 2017 15:36:35.63 NEW SESSION
+Jul 20, 2017 15:36:35.63 [GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+Jul 20, 2017 15:36:36.69 [GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+Jul 20, 2017 15:49:36.31 [GPU 6084] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 20, 2017 15:49:36.35 [Child 12084] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 20, 2017 15:49:36.88 
+Jul 20, 2017 15:49:36.88 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Jul 20, 2017 15:49:36.88 
+Jul 20, 2017 15:50:13.23 [GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+Jul 20, 2017 15:50:14.23 [GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+Jul 20, 2017 15:50:19.25 [Child 5892] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 20, 2017 15:50:20.10 
+Jul 20, 2017 15:50:20.10 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Jul 20, 2017 15:50:20.10 
+
+Jul 20, 2017 15:52:31.87 NEW SESSION
+Jul 20, 2017 15:52:31.87 [GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+Jul 20, 2017 15:52:32.91 [GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+Jul 20, 2017 15:52:42.34 
+Jul 20, 2017 15:52:42.34 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Jul 20, 2017 15:52:42.34 
+Jul 20, 2017 15:53:00.58 [GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+Jul 20, 2017 15:53:01.56 [GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+Jul 20, 2017 15:53:05.48 [Child 10368] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 20, 2017 15:53:06.44 
+Jul 20, 2017 15:53:06.44 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Jul 20, 2017 15:53:06.44 
+Jul 20, 2017 15:54:50.43 [GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+Jul 20, 2017 15:54:51.53 [GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0

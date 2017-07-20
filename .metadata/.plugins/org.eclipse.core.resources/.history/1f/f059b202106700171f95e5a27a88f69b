@@ -1,9 +1,0 @@
-List of Friends
-<table>
-<tr ng-repeat="f in friendsList">
-<td ng-hide="currentUser.username==f.fromId">{{f.fromId}}</td>
-<td>{{f.toId}}</td>
-
-<td></td>
-</tr>
-</table>
